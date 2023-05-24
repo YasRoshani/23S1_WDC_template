@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+  }
+
+  .form-div {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+
+  input[type="email"],
+  input[type="tel"],
+  input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 8px;
+    margin-bottom: 20px
+  }
+
+    button {
+      display: block;
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      transition: background-color 0.2s ease-in-out;
+    }
+
+
+    button:hover {
+      background-color: grey;
+    }

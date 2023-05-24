@@ -1,0 +1,47 @@
+.login-div {
+    align-items: center;
+    margin: 40px auto;
+    padding: 30px;
+    width: 250px;
+    background-color: lightgray;
+  }
+
+
+  input {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+
+
+  .txt-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+
+  .pass-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+
+
+
+  button {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+
+  button:hover {
+    background-color: grey;
+  }
